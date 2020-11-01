@@ -1,4 +1,6 @@
 /.bundle/
+/mangas/*
+!/mangas/.gitkeep
 /.yardoc
 /Gemfile.lock
 /_yardoc/
