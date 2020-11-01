@@ -6,6 +6,7 @@ RUN apt-get install -y imagemagick
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
+ENV PATH /app/bin:/gems/vendor/bin:$PATH
 
 RUN mkdir /app
 WORKDIR /app
